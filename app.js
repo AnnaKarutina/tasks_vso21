@@ -39,5 +39,6 @@ function addTask(event){
     // add li to ul
     const ul = document.querySelector('.collection');
     ul.appendChild(li);
+    taskInput.value = '';
     event.preventDefault();
 }
